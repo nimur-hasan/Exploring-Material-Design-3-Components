@@ -16,6 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.nehalappstudio.materialdesign3components.UiComponents.BadgeComponent
+import com.nehalappstudio.materialdesign3components.UiComponents.SliderComponent
 import com.nehalappstudio.materialdesign3components.UiComponents.SwitchComponent
 import com.nehalappstudio.materialdesign3components.ui.theme.MaterialDesign3ComponentsTheme
 
@@ -37,6 +38,8 @@ class MainActivity : ComponentActivity() {
                             BadgeComponent()
                             // Switch Component
                             SwitchComponent()
+                            // Slider Component
+                            SliderComponent()
                         }
                     }
                 }
