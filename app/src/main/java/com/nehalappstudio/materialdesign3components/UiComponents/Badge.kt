@@ -22,7 +22,8 @@ fun BadgeComponent(modifier: Modifier = Modifier) {
         Icon(
             imageVector = Icons.Default.Favorite,
             contentDescription = null,
-            modifier = Modifier.size(40.dp)
+            modifier = Modifier.size(40.dp),
+            tint = Color.Red
         )
     }
 }
