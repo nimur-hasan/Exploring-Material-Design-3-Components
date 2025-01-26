@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.nehalappstudio.materialdesign3components"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.nehalappstudio.materialdesign3components"
